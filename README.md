@@ -6,14 +6,14 @@ In a modern operating system, each process may has a list of child processes, th
 for instance, assuming Launcher has child processes such as Xcode, Finder and Facebook. Xcode has Simulator and Debugger child processes, and
 Simulator has iPhone 7 and iPad. The hierarchy information will be dumped as following
 
-Launcher
-├─ Xcode
-│  ├─ Simulator
-│  │  ├─ iPhone 7
-│  │  └─ iPad
-│  └─ Debugger
-├─ Finder
-└─ Facebook
+Launcher<br />
+├─ Xcode<br />
+│  ├─ Simulator<br />
+│  │  ├─ iPhone 7<br />
+│  │  └─ iPad<br />
+│  └─ Debugger<br />
+├─ Finder<br />
+└─ Facebook<br />
 
 This demo also show how to rebuild the process layout by inputing above string.
 
