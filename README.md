@@ -6,6 +6,7 @@ In a modern operating system, each process may has a list of child processes, th
 for instance, assuming Launcher has child processes such as Xcode, Finder and Facebook. Xcode has Simulator and Debugger child processes, and
 Simulator has iPhone 7 and iPad. The hierarchy information will be dumped as following
 
+<pre><code>
 Launcher<br />
 ├─ Xcode<br />
 │  ├─ Simulator<br />
@@ -14,6 +15,8 @@ Launcher<br />
 │  └─ Debugger<br />
 ├─ Finder<br />
 └─ Facebook<br />
+</code></pre>
+
 
 This demo also show how to rebuild the process layout by inputing above string.
 
